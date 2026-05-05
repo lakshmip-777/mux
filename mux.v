@@ -5,6 +5,6 @@ module mux (
     output wire y
 );
 
-assign y = sel ? b : a
+assign y = sel ? b : a;
 
 endmodule
